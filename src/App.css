@@ -1,6 +1,80 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: serif  ;
+}
+.App{
+
+}
+.topNav{
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 100px;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.mainBox{
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+}
+.mainSlide{
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.box1, .box2, .box3{
+  position: relative;
+  margin: 2%;
+  width: 30%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.box1MainText,.box2MainText,.box3MainText{
+  transform: translate(-50%,-20%);
+  left: 10%;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  bottom: 10%;
+  position: absolute;
   text-align: center;
 }
+.modal1{
+  position:fixed;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal2{
+  position:fixed;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal3{
+  position:fixed;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 
 .App-logo {
   height: 40vmin;
