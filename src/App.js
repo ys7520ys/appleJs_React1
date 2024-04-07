@@ -50,7 +50,7 @@ function App() {
           <button onClick={()=>{setModal(!modal)}}>MODAL</button>
         </div> */}
         {
-          [<div>추가함</div>]
+          [<div>추가함을수정함</div>]
         }
       </div>
     </div>
